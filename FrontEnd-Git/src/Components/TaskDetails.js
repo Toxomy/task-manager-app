@@ -13,7 +13,7 @@ const TaskDeatils = () => {
     }
     useEffect(() => {
         fetchSingleData();
-    }, [])
+    }, [fetchSingleData])
     return (
         <div className="editPage">
             <h2>Task Details Page</h2>

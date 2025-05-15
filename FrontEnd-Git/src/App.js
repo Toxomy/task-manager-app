@@ -5,7 +5,6 @@ import Home from './Components/Home';
 import EditDeatils from './Components/EditDeatils';
 
 function App() {
-  let { Id } = useParams();
   return (
     <div className="App">
       <Routes>

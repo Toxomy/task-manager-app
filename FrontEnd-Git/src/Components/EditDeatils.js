@@ -13,7 +13,7 @@ const EditDeatils = () => {
     }
     useEffect(() => {
         fetchSingleData();
-    }, [])
+    }, [fetchSingleData])
     const editTaskHandler = async () => {
         await axios.put(`http://localhost:5000/api/v1/tasks/${Id}`, {
             name: input
