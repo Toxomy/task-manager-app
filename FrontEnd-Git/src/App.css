@@ -1,0 +1,91 @@
+body {
+  background-color: whitesmoke;
+}
+
+.App {
+  width: 500px;
+  margin: auto;
+}
+
+.singleTask {
+  list-style: none;
+}
+
+.inputDiv {
+  width: 600px;
+  height: 170px;
+  background-color: white;
+  box-shadow: 3px 5px 10px gainsboro;
+  border: transparent;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  font-family: monospace;
+}
+
+.input {
+  border: transparent;
+  background-color: ghostwhite;
+  width: 300px;
+  height: 35px;
+  font-size: medium;
+  padding-left:10px;
+}
+
+.submitButton {
+  width: fit-content;
+  height: 35px;
+  background-color: rgb(46, 46, 198);
+  color: white;
+  border: transparent;
+  font-size: large;
+  font-family: monospace;
+}
+
+.singleTask {
+  width: 570px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 3px 5px 10px gainsboro;
+  border: transparent;
+  padding: 15px 15px 0px 25px;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: x-large;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.allTask {
+  margin-top: 50px;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+}
+
+.taskDetails {
+  font-size: x-large;
+}
+
+.editPage {
+  text-align: center;
+}
+
+.edit {
+  margin-top: 40px;
+}
+
+input[type=checkbox]:checked+li.taskName {
+  text-decoration: line-through;
+}
+
+.taskNameDiv input,li{
+  display: inline;
+}
+.strikethrough{
+  margin-right: 10px;
+}
+.strikethrough{
+  margin-right: 10px;
+}
